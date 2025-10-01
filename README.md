@@ -123,3 +123,21 @@ VVV
     System.out.println(incomplete.substring(0,4) + word1 + incomplete.substring(15,34) + word2 + incomplete.substring(40,45) + word3 + incomplete.substring(51,63) + word4 + incomplete.substring(73,99) + word5 + incomplete.substring(107));
 
     }
+
+
+
+
+
+
+
+
+
+# New Due Date(+1 Week)
+
+>>> display the original story
+>>> Tests with one MadLib(WE NEED THREE MADLIBS)
+>>> Need 3 different MADLIBS
+>>> Java program should be similar
+VVVVVVVVVVVVVVVVVVVVVV
+
+String Nightmare
