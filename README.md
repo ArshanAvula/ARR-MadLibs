@@ -97,8 +97,8 @@ The Code
 
 VVV
 
-import java.util.Scanner;
-public class Madlib {
+    import java.util.Scanner;
+    public class Madlib {
     public static void main(String[] args) {
 
     String incomplete = "The (adjective) knight decided to (verb) the (noun), carefully (verb-ing) from danger while facing (number) locked doors.";
