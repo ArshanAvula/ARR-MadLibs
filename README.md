@@ -132,7 +132,7 @@ VVV
 
 
 
-# New Due Date(+1 Week)
+# New Due Date(+1 Week) // DAY 03
 
 >>> display the original story
 >>> Tests with one MadLib(WE NEED THREE MADLIBS)
@@ -154,4 +154,7 @@ This task was so much harder….(Then it needed to be)
 The original task was to have a SET made that we, the coding nerds(us duhhh) selected, and have SET positions for words(nouns, verbs, adj, etc), and that was it. BUT Mr Baez had realised he had portrayed our project wrong… He decided that we need to take a few steps back, and take on a (essentially)completely different challenge. Now instead of just the inputs we were using(the nouns, verbs, etc)… we now need to enter ANY MADLIB, NO MATTER HOW LONG SHORT OR THE VARYING AMOUNT OF BLANK WORDS!!!! This simple task grew exponentially harder, as now the code we used, we were using set pavements for the nouns, verbs, etc; but now it can vary any amount and can be anywhere in the sentence, obliterating out previous method. But not just that, we also needed a new input.. A MADLIB. Then Our Program should be able to scan this madlib and find where each (BLANK) space is!!!
 
 
+# Starting from Square 01
 
+
+Since we used set methods for the code, it would no longer apply for the new challenge, so we needed to start from square one.
