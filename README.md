@@ -17,17 +17,17 @@
 
 
 
-This Read Me, was made by Rishab Trehan(ReadME+Slide Design), Arshan Avula(Coder 01), and Rohit Denduluri(Coder 02).
+This Read Me, was made by Rishab Trehan(ReadME+Slide Design for presentations), Arshan Avula(Coder 01), and Rohit Denduluri(Coder 02).
 
 
-Day 01
+# Day 01
 Day 01 was the introduction to this project. We were tasked with creating an input of any number and getting only ONE output. Similar to x = a number. So after we were introduced to this project, we had to brainstorm on how to solve this dilemma. This dilemma“ had easy solutions at first, but our teacher, Mr Baez, had limitations and requirements for this project, making them impossible. We had to use our prior skills to complete this project.
 
 
 To begin with, we were learning and brainstorming how to structure this program. 
 
 
-Day 02
+# Day 02
 To begin with, we were learning and brainstorming how to structure this program. 
 
 
