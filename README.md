@@ -74,3 +74,52 @@ public class Madlib {
 
 
 ————————————————————————————————————————————————————————
+
+
+# Day 03
+
+We made the github repository
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Code
+
+VVV
+
+import java.util.Scanner;
+public class Madlib {
+    public static void main(String[] args) {
+
+    String incomplete = "The (adjective) knight decided to (verb) the (noun), carefully (verb-ing) from danger while facing (number) locked doors.";
+    Scanner sc = new Scanner(System.in);
+
+
+    System.out.println("Enter an adjective:");
+    String word1 = sc.nextLine();
+
+    System.out.println("Enter a verb:");
+    String word2 = sc.nextLine();
+
+    System.out.println("Enter a noun:");
+    String word3 = sc.nextLine();
+
+    System.out.println("Enter a verb that ends with 'ing':");
+    String word4 = sc.nextLine();
+
+    System.out.println("Enter a whole number:");
+    int word5 = sc.nextInt();
+
+    System.out.println(incomplete.substring(0,4) + word1 + incomplete.substring(15,34) + word2 + incomplete.substring(40,45) + word3 + incomplete.substring(51,63) + word4 + incomplete.substring(73,99) + word5 + incomplete.substring(107));
+
+    }
