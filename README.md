@@ -134,13 +134,17 @@ VVV
 
 # New Due Date(+1 Week) // DAY 03
 
->>> display the original story
->>> Tests with one MadLib(WE NEED THREE MADLIBS)
->>> Need 3 different MADLIBS
->>> Java program should be similar
-VVVVVVVVVVVVVVVVVVVVVV
+- display the original story
 
-String Nightmare
+- Tests with one MadLib(WE NEED THREE MADLIBS)
+
+- Need 3 different MADLIBS
+
+- Java program should be similar
+
+     VVVVVVVVVVVVVVVVVVVV
+
+This is essentialy a **String Nightmare**
 
 
 
