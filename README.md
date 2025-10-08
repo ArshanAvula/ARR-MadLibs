@@ -167,12 +167,6 @@ Since we used set methods for the code, it would no longer apply for the new cha
 # Day 5 (Outside School)
 
 
-
-import java.util.Scanner;
-public class Madlib2 {
-    public static void main(String[] args) {
-    //Test: The (noun) (verb) up the (adjective) tree.
-
     Scanner sc = new Scanner(System.in);
     System.out.println("Type your Madlib: ");
     String madlib = sc.nextLine();
@@ -204,4 +198,3 @@ public class Madlib2 {
     String Madlibtemplate = first + " " + second + " " + third + " " + fourth;
     System.out.println(Madlibtemplate);
     }
-}
