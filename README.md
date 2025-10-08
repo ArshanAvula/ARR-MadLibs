@@ -162,3 +162,46 @@ The original task was to have a SET made that we, the coding nerds(us duhhh) sel
 
 
 Since we used set methods for the code, it would no longer apply for the new challenge, so we needed to start from square one.
+
+
+# Day 5 (Outside School)
+
+
+
+import java.util.Scanner;
+public class Madlib2 {
+    public static void main(String[] args) {
+    //Test: The (noun) (verb) up the (adjective) tree.
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Type your Madlib: ");
+    String madlib = sc.nextLine();
+
+    Scanner nounSC = new Scanner(madlib);
+    nounSC.useDelimiter("(noun)");
+    String first = nounSC.next();
+    String part2 = nounSC.next();
+
+    Scanner verbSC = new Scanner(part2);
+    verbSC.useDelimiter("(verb)");
+    String second = verbSC.next();
+    String part3 = verbSC.next();
+
+    Scanner adjectiveSC = new Scanner(part3);
+    adjectiveSC.useDelimiter("(adjective)");
+    String third = adjectiveSC.next();
+    String fourth = adjectiveSC.next();
+    
+    int index1 = first.indexOf("(");
+    first = first.substring(0, index1);
+    first = first.substring(0, first.length() -1);
+    // remove the surrounding parentheses/spaces from the second piece
+    second = second.substring(1, second.length() - 1);
+    third = third.substring(1, third.length() - 1);
+    fourth = fourth.substring(1);
+    
+    
+    String Madlibtemplate = first + " " + second + " " + third + " " + fourth;
+    System.out.println(Madlibtemplate);
+    }
+}
