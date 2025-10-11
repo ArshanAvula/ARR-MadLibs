@@ -187,25 +187,25 @@ Arshan and Rohit wrote code both inside and outside school to get ahead once aga
 # Final Code
 
 
-    public static void main(String[] args) {                       // The code doesn't start here but the syntax is weird when copying and pasting it from the file so live with it
-    //Test Case: The (noun) (verb) up the (adjective) tree.        
+    public static void main(String[] args) {                       
+    //Test Case: The (noun) (verb) up the (adjective) tree. 
 
     //Input user MadLib
-    Scanner sc = new Scanner(System.in);                           // Scanner class >>>   declares a variable named sc of the type Scanner , creates a new object (an instance) , Standard input stream
-    System.out.println("Type your Madlib: ");                      // printing "Type your Madlib: "
-    String madlib = sc.nextLine();                                 // The line of code reads an entire line of text entered by a user (the Madlib) and stores it in a variable called madlib
+    Scanner sc = new Scanner(System.in);                           
+    System.out.println("Type your Madlib: ");                      
+    String madlib = sc.nextLine();                                 
 
     //Scan for noun inside madlib
-    Scanner nounSC = new Scanner(madlib);                          // 
-    nounSC.useDelimiter("(noun)");                                 //
-    String first = nounSC.next();                                  //
-    String part2 = nounSC.next();                                  //
+    Scanner nounSC = new Scanner(madlib);                           
+    nounSC.useDelimiter("(noun)");                                 
+    String first = nounSC.next();                                  
+    String part2 = nounSC.next();                                  
 
     //Scan for verb inside madlib
-    Scanner verbSC = new Scanner(part2);                           //
-    verbSC.useDelimiter("(verb)");                                 //
-    String second = verbSC.next();                                 //
-    String part3 = verbSC.next();                                  //
+    Scanner verbSC = new Scanner(part2);                           
+    verbSC.useDelimiter("(verb)");                                 
+    String second = verbSC.next();                                 
+    String part3 = verbSC.next();                                  
 
     
     Scanner adjectiveSC = new Scanner(part3);
@@ -254,16 +254,93 @@ Arshan and Rohit wrote code both inside and outside school to get ahead once aga
 
 # Test THREE
 
-
-<img width="1440" height="714" alt="Screenshot 2025-10-10 at 7 30 22 PM" src="https://github.com/user-attachments/assets/1fb00077-f4b7-4afe-a64f-ce8db1317c86" />
-
-
-
-# Summary
+<img width="1440" height="714" alt="Screenshot 2025-10-10 at 8 44 01 PM" src="https://github.com/user-attachments/assets/26ba90ef-fe83-44f6-9877-9be828023c70" />
 
 
 
+# Relations!!!
 
 
+***1.2.7 Honorable mention***
 
 
+1.2.7 is an ***Honorable mention*** because of how it helped us with our previous code for our previous task. It allowed us to track the words in the Madlib set and gave us the ability to replace the verbs, adjectives, and nouns with the users' nouns, adjectives, and verbs. This gave us the ability to complete the code, which later had to be completely revamped with different methods
+
+
+**1.2.9(the most obvious)**
+
+1.2.9 introduced the scanner, which is, by the way, like 90% of the code. The scanner, in general, allowed us to get a user's input, find the placeholders in the sentence(s) (Nouns, Adjectives, Verbs). Then it scans the input sentence(Madlib) to separate the sections around the placeholders to insert the user’s words later. After the user's words had been input and "stored", it is then combined to make the completed madlib. 
+
+
+**Substrings**
+
+
+Substrings were another main part of our code, as they allowed us to clean up the code. Let me explain. The substrings were finding the sections in between the verbs, adjectives, and nouns. so it is something like this: **SUBSTRINGSUBSTRING** ***(noun)*** **SUBSTRINGSUBSTRING** ***(verb)*** **SUBSTRINGSUBSTRING** ***(adjective)*** **SUBSTRINGSUBSTRING** . Now this was able to clear the code. The substring(s) is present from ***lines 31 - 35***:
+
+
+    int index1 = first.indexOf("(");
+    first = first.substring(0, index1);                    // Line 31
+    first = first.substring(0, first.length());            // Line 32
+    second = second.substring(1, second.length() - 1);     // Line 33
+    third = third.substring(1, third.length() - 1);        // Line 34
+    fourth = fourth.substring(1);                          // Line 35
+
+>>>
+>>>
+>>>
+
+
+# Final Code
+
+
+    public static void main(String[] args) {                       
+    //Test Case: The (noun) (verb) up the (adjective) tree. 
+
+    //Input user MadLib
+    Scanner sc = new Scanner(System.in);                           
+    System.out.println("Type your Madlib: ");    // asks the user(input) then is saved as the variable Madlib
+    String madlib = sc.nextLine();                                 
+
+    //Scan for noun inside madlib
+    Scanner nounSC = new Scanner(madlib);                           
+    nounSC.useDelimiter("(noun)");      // This part of the code is "scanning" for the noun placeholder by splitting the sentence into 2 parts, 
+    String first = nounSC.next();       // (first and part 2) these parts are then saved(variables) to reconstruct the sentence LATER
+    String part2 = nounSC.next();                                  
+
+    //Scan for verb inside madlib
+    Scanner verbSC = new Scanner(part2); // this is the same as the prevoius ^^^ explanation, just replaced using verb
+    verbSC.useDelimiter("(verb)"); // This part of the code is "scanning" for the VERB placeholder by splitting the sentence into 2 parts, 
+    String second = verbSC.next(); // (second and part 3)these parts are then saved(variables) to reconstruct the sentence LATER
+    String part3 = verbSC.next();                                  
+
+    
+    Scanner adjectiveSC = new Scanner(part3); // this is the same as the prevoius two ^^^ explanations, just replaced using adjectives
+    adjectiveSC.useDelimiter("(adjective)");  // This part of the code is "scanning" for the adjective placeholder by splitting the sentence into 2 parts, 
+    String third = adjectiveSC.next();        // (third and fourth)these parts are then saved(variables) to reconstruct the sentence LATER
+    String fourth = adjectiveSC.next();
+
+    //Using String methods to find sections in between the noun, verb, and adjective
+    int index1 = first.indexOf("(");
+    first = first.substring(0, index1);
+    first = first.substring(0, first.length());        // This part of the code removes extra characters like parentheses, using substring to keep 
+    second = second.substring(1, second.length() - 1); // only the important parts of the code.
+    third = third.substring(1, third.length() - 1);
+    fourth = fourth.substring(1);
+    
+    //Asking User to input a noun, verb, and adjective
+    System.out.println("Type a noun: ");
+    String noun = sc.nextLine();
+    System.out.println("Type a verb: ");                 // this code saves the inputs from the user for noun, verb, and adjective as variables for each other
+    String verb = sc.nextLine();                         // for later use...
+    System.out.println("Type a adjective: ");
+    String adjective = sc.nextLine();
+    
+    //Printing out modified Madlib
+    System.out.println(first + noun + second + verb + third + adjective + fourth);    // this is the completed sentence by combining the parts in between
+    //                                                                                //  the sentences and also the input verbs, adjectives, and nouns
+
+
+# CODE EXPLANATION
+
+
+IN SUMMARY, the code asks the user to insert a madlib, and the code then proceeds to save this madlib for later use. Then the code uses scanners to look for nouns, verbs, and adjectives, and then splits the sentence between each placeholder. creating multiple halves for each placeholder. Then the code has a bunch of junk, which is then removed by the substring, and it makes sure to retain only the important parts of the code. Then the code is asking the user again for new inputs (verb, adjective, and nouns). The user finally answers the questions, and then the code prints out the halves combined to create a new sentence (which is now the completed madlib.
