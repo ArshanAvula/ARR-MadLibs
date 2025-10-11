@@ -175,66 +175,6 @@ Arshan and Rohit wrote code both inside and outside school to get ahead once aga
 
 
 
-
-
-
-
-
-
-
-
-
-# Final Code
-
-
-    public static void main(String[] args) {                       
-    //Test Case: The (noun) (verb) up the (adjective) tree. 
-
-    //Input user MadLib
-    Scanner sc = new Scanner(System.in);                           
-    System.out.println("Type your Madlib: ");                      
-    String madlib = sc.nextLine();                                 
-
-    //Scan for noun inside madlib
-    Scanner nounSC = new Scanner(madlib);                           
-    nounSC.useDelimiter("(noun)");                                 
-    String first = nounSC.next();                                  
-    String part2 = nounSC.next();                                  
-
-    //Scan for verb inside madlib
-    Scanner verbSC = new Scanner(part2);                           
-    verbSC.useDelimiter("(verb)");                                 
-    String second = verbSC.next();                                 
-    String part3 = verbSC.next();                                  
-
-    
-    Scanner adjectiveSC = new Scanner(part3);
-    adjectiveSC.useDelimiter("(adjective)");
-    String third = adjectiveSC.next();
-    String fourth = adjectiveSC.next();
-
-    //Using String methods to find sections in between the noun, verb, and adjective
-    int index1 = first.indexOf("(");
-    first = first.substring(0, index1);
-    first = first.substring(0, first.length());
-    second = second.substring(1, second.length() - 1);
-    third = third.substring(1, third.length() - 1);
-    fourth = fourth.substring(1);
-    
-    //Asking User to input a noun, verb, and adjective
-    System.out.println("Type a noun: ");
-    String noun = sc.nextLine();
-    System.out.println("Type a verb: ");
-    String verb = sc.nextLine();
-    System.out.println("Type a adjective: ");
-    String adjective = sc.nextLine();
-    
-    //Printing out modified Madlib
-    System.out.println(first + noun + second + verb + third + adjective + fourth);
-
-
-
-
 # Testing (with Mr. Baez)
 
 "We can take a more **harder** approach and do that(he was pointing at the board and explaining what mr Baez explained to the class), our code fits all the requirements" -- ArshanthegGoat
@@ -243,16 +183,26 @@ Arshan and Rohit wrote code both inside and outside school to get ahead once aga
 # TEST ONE
 
 
+Given Madlib by Mr Baez, the code was successfully able to "transform" it into a ***completed*** madlib
+
+
 <img width="1440" height="719" alt="Screenshot 2025-10-10 at 7 25 26 PM" src="https://github.com/user-attachments/assets/1f6e92d9-231e-4716-b1f2-eba3d8347331" />
 
 
 # Test TWO
 
 
+Given Madlib by Mr Baez, the code was successfully able to "transform" it into a ***completed*** madlib
+
+
 <img width="1440" height="713" alt="Screenshot 2025-10-10 at 7 28 13 PM" src="https://github.com/user-attachments/assets/4721a61c-a42e-41d9-8602-b9ab4d1531cb" />
 
 
 # Test THREE
+
+
+This Madlib was created by Arshan and Rohit, it was tested by me, and it worked. Our Madlib worked accurately with any sentence structure.
+
 
 <img width="1440" height="714" alt="Screenshot 2025-10-10 at 8 44 01 PM" src="https://github.com/user-attachments/assets/26ba90ef-fe83-44f6-9877-9be828023c70" />
 
@@ -290,7 +240,7 @@ Substrings were another main part of our code, as they allowed us to clean up th
 >>>
 
 
-# Final Code
+# Final CODE (with comments for each paragraph)
 
 
     public static void main(String[] args) {                       
