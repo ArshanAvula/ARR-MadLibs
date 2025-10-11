@@ -23,7 +23,7 @@ We first worked on creating a basic layout for the *original task* and finished 
 **We made the GitHub repository** but...
 
 
-***New Due Date(+1 Week) // DAY 03 PART TWO + RISHAB's RANT***
+***New Due Date(+1 Week) // DAY 03 PART TWO***
 
 - display the original story
 
