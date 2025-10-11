@@ -26,7 +26,7 @@ Day 01 was the introduction to this project. We were tasked with creating a Prog
 **Day Two**
 
 
-We first worked on creating a basic layout for the *original task* and finished it. We then had to do a lot of guessing and checking to line up the **indices of the strings**. We finished the code when class ended, and just needed more guessing and checking. Rohit finished the index (the line up) after school, which gave us a big head start by the beginning of day three.
+We first worked on creating a basic layout for the *original task* and finished it. We then had to do a lot of guessing and checking to line up the **indices of the strings**. We finished the code when class ended, and just needed more guessing and checking. Rohit finished the index (the line-up) after school, which gave us a big head start by the beginning of day three.
 
 
 **Day Three**
@@ -55,24 +55,13 @@ We first worked on creating a basic layout for the *original task* and finished 
 *This is essentially a* ***String Nightmare***
 
 
-This task was so much harder….(Then it needed to be)
-
-
 ***Rishab's Rant***
 
 
-The original task was to have a SET made that we, the coding nerds(us duhhh) selected, and have SET positions for words(nouns, verbs, adj, etc), and that was it. BUT Mr Baez had realised he had portrayed our project wrong… He decided that we need to take a few steps back and take on a (essentially)completely different challenge. Now, instead of just the inputs we were using(the nouns, verbs, etc)… we now need to enter ANY MADLIB, NO MATTER HOW LONG, SHORT, OR THE VARYING AMOUNT OF BLANK WORDS!!!! This simple task grew exponentially harder, as now the code we used, we were using set pavements for the nouns, verbs, etc, but now it can vary any amount and can be anywhere in the sentence, obliterating our previous method. But not just that, we also needed a new input.. A MADLIB. Then Our Program should be able to scan this madlib and find where each (BLANK) space is!!!
-
+The original task was to create a set that we, the coding nerds (us, duh), selected, and to assign set positions to words (nouns, verbs, adjectives, etc.). That was it. But Mr Baez had realised he had portrayed our project wrong… He decided that we need to take a few steps back and take on a (essentially)completely different challenge. Now, instead of just the inputs we were using(the nouns, verbs, etc)… we now need to enter any MadLib, no matter how long, short, or the varying amount of blank words! This simple task grew exponentially harder, as now the code we used was using set pavements for nouns, verbs, etc., but now it can vary in any amount and can be anywhere in the sentence, obliterating our previous method. But not just that, we also needed a new input.. A Madlib. Then Our Program should be able to scan this madlib and find where each (BLANK) space is!!!
 
 
 # WRONG CODE BTW
-
-
-# WRONG CODE VVV
-
-
-# WRONG CODE VVV
-
 
 
 **VVVV**
