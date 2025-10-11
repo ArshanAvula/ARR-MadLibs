@@ -1,18 +1,6 @@
 # ARR-MadLibs
 
 
-
-
-<img width="815" height="390" alt="image" src="https://github.com/user-attachments/assets/390e99e4-8a3c-437a-b57b-ac6fbdcec4ca" />
-
-
-
-
-<img width="740" height="521" alt="image" src="https://github.com/user-attachments/assets/0fc9632d-0519-4285-80b8-cc983fd6ce0b" />
-
-
-
-
 This Read Me was made by Rishab Trehan(ReadME+ ~~Slide Design for presentations~~), Arshan Avula(Coder 01), and Rohit Denduluri(Coder 02).
 
 
@@ -55,16 +43,10 @@ We first worked on creating a basic layout for the *original task* and finished 
 *This is essentially a* ***String Nightmare***
 
 
-***Rishab's Rant***
-
-
 The original task was to create a set that we, the coding nerds (us, duh), selected, and to assign set positions to words (nouns, verbs, adjectives, etc.). That was it. But Mr Baez had realised he had portrayed our project wrong… He decided that we need to take a few steps back and take on a (essentially)completely different challenge. Now, instead of just the inputs we were using(the nouns, verbs, etc)… we now need to enter any MadLib, no matter how long, short, or the varying amount of blank words! This simple task grew exponentially harder, as now the code we used was using set pavements for nouns, verbs, etc., but now it can vary in any amount and can be anywhere in the sentence, obliterating our previous method. But not just that, we also needed a new input.. A Madlib. Then Our Program should be able to scan this madlib and find where each (BLANK) space is!!!
 
 
-# WRONG CODE BTW
-
-
-**VVVV**
+# Original Task Code
 
 
     import java.util.Scanner;
@@ -95,30 +77,18 @@ The original task was to create a set that we, the coding nerds (us, duh), selec
     }
 
 
-# ABOVE CODE IS NOT OUR FINALIZED CODE(THIS IS JUST TO SHOW YOU THAT WE DID WORK)
-
-
-
-
-# Image Below is the Testing Values (Graded Table)
-
-
-<img width="883" height="219" alt="image" src="https://github.com/user-attachments/assets/9d5e3bbf-2dde-493f-8540-d122c103288a" />
-
-
-
 
 # Starting from Square 01 // DAY 4
 
 
 
-Since we used set methods (specifically for the madlib and the verbs/adj/nouns) for the code, it would no longer apply for the new challenge, so we needed to start from square one. This was brutal, annoying, and frustrating as we had no idea what to do. We did not know how to approach this new project/task. 
+Since we used set methods (specifically for the madlib and the verbs/adj/nouns) for the code, it would no longer apply for the new challenge, so we needed to start from square one. This was brutal, annoying, and frustrating, as we had no idea what to do. We did not know how to approach this new project/task. 
 
 
 **Day 4**
 
 
-We did the carnival that Mr. Baez had set up in class, so there was no actual progress on the Madlib. But we did agree to brainstorm for Day 5 on how to start the code.
+We did the carnival that Mr. Baez had set up in class, so there was no actual progress on the Madlib. But we did agree to brainstorm for Day 5 on how to start the code. And Arhsan specifically studied Substring.
 
 
 # Day 5 (Outside School)
@@ -163,7 +133,7 @@ Arshan and Rohit wrote code both inside and outside school to get ahead once aga
 
 # Testing (with Mr. Baez)
 
-"We can take a more **harder** approach and do that(he was pointing at the board and explaining what mr Baez explained to the class), our code fits all the requirements" -- ArshanthegGoat
+"We can take a more **harder** approach and do that(he was pointing at the board and explaining what mr Baez explained to the class), our code fits all the requirements" -- Arshan
 
 
 # TEST ONE
@@ -231,7 +201,7 @@ This Madlib was created by Arshan and Rohit, it was tested by me, and it worked.
 
 
 
-**Substrings**
+**1.2.7 Part 2(Substrings)**
 
 
 Substrings were another main part of our code, as they allowed us to clean up the code. Let me explain. The substrings were finding the sections in between the verbs, adjectives, and nouns. so it is something like this: **SUBSTRINGSUBSTRING** ***(noun)*** **SUBSTRINGSUBSTRING** ***(verb)*** **SUBSTRINGSUBSTRING** ***(adjective)*** **SUBSTRINGSUBSTRING** . Now this was able to clear the code. The substring(s) is present from ***lines 31 - 35***:
