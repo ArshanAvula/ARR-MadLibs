@@ -1,7 +1,6 @@
 # ARR-MadLibs
 
 
-
 <img width="747" height="723" alt="image" src="https://github.com/user-attachments/assets/397521f2-d3ae-40e0-a261-45b0cdf76f9a" />
 
 
@@ -17,84 +16,70 @@
 
 
 
-This Read Me, was made by Rishab Trehan(ReadME+Slide Design for presentations), Arshan Avula(Coder 01), and Rohit Denduluri(Coder 02).
+This Read Me was made by Rishab Trehan(ReadME+ ~~Slide Design for presentations~~), Arshan Avula(Coder 01), and Rohit Denduluri(Coder 02).
 
 
-# Day 01
-Day 01 was the introduction to this project. We were tasked with creating an input of any number and getting only ONE output. Similar to x = a number. So after we were introduced to this project, we had to brainstorm on how to solve this dilemma. This dilemma“ had easy solutions at first, but our teacher, Mr Baez, had limitations and requirements for this project, making them impossible. We had to use our prior skills to complete this project.
+# Day 01 // Updated 
+Day 01 was the introduction to this project. We were tasked with creating a Program that inputs verbs, adjectives, and nouns into a "random" Madlib! This random Madlib wasn't as random as it needed to be, but the amount of verbs/nouns/adjectives was spread out throughout the code. To begin with, we were learning and brainstorming how to structure this program. We were originally tasked with creating a different program, with a set Madlib... this meant we could use a method learnt in **1.1.7 (String Methods)**, so that we can replace a specific portion of the set string(Madlib) and replace it with whatever verbs/nouns/adjectives.***this original task lasted till the beginning of day three***
 
 
-To begin with, we were learning and brainstorming how to structure this program. 
+# Day 02 AND DAY THREE-ish
 
 
-# Day 02
-To begin with, we were learning and brainstorming how to structure this program. 
+**Day Two**
 
 
+We first worked on creating a basic layout for the *original task* and finished it. We then had to do a lot of guessing and checking to line up the **indices of the strings**. We finished the code when class ended, and just needed more guessing and checking. Rohit finished the index (the line up) after school, which gave us a big head start by the beginning of day three.
 
 
-The first solution we thought of was being able to get the input using greater than or less than signs against zero to determine the input, for becoming a positive or negative integer(or doubles -> decimals). We can then determine the distance between the input number and the “goal” number. Now that we have this, we could use this information to calculate the distance number and the original number to get our “goal number”.
-We also rejected the previous method
-import java.util.Scanner;
-public class Madlib {
-    public static void main(String[] args) {
+**Day Three**
 
 
-    String incomplete = "The (adjective) knight decided to (verb) the (noun), carefully (verb-ing) for danger while facing (number) locked doors.";
-    Scanner sc = new Scanner(System.in);
+**We made the GitHub repository** but...
 
 
+***New Due Date(+1 Week) // DAY 03 PART TWO + RISHAB's RANT***
+
+- display the original story
 
 
-    System.out.println("Enter an adjective:");
-    String word1 = sc.nextLine();
+- Tests with one MadLib(WE NEED THREE MADLIBS)
 
 
-    System.out.println("Enter a verb:");
-    String word2 = sc.nextLine();
+- *Need 3 different MADLIBS*
 
 
-    System.out.println("Enter a noun:");
-    String word3 = sc.nextLine();
+- The Java program should be similar
 
 
-    System.out.println("Enter a verb that ends with 'ing':");
-    String word4 = sc.nextLine();
+     VVVVVVVVVVVVVVVVVVVV
+     
+
+*This is essentially a* ***String Nightmare***
 
 
-    System.out.println("Enter a whole number:");
-    int word5 = sc.nextInt();
+This task was so much harder….(Then it needed to be)
 
 
-    System.out.println(incomplete.substring(0,4) + word1 + incomplete.substring(15,34) + word2);
+***Rishab's Rant***
 
 
-    }
-}
-
-
->>
-
-# Day 03
-
-We made the github repository
+The original task was to have a SET made that we, the coding nerds(us duhhh) selected, and have SET positions for words(nouns, verbs, adj, etc), and that was it. BUT Mr Baez had realised he had portrayed our project wrong… He decided that we need to take a few steps back and take on a (essentially)completely different challenge. Now, instead of just the inputs we were using(the nouns, verbs, etc)… we now need to enter ANY MADLIB, NO MATTER HOW LONG, SHORT, OR THE VARYING AMOUNT OF BLANK WORDS!!!! This simple task grew exponentially harder, as now the code we used, we were using set pavements for the nouns, verbs, etc, but now it can vary any amount and can be anywhere in the sentence, obliterating our previous method. But not just that, we also needed a new input.. A MADLIB. Then Our Program should be able to scan this madlib and find where each (BLANK) space is!!!
 
 
 
+# WRONG CODE BTW
+
+
+# WRONG CODE VVV
+
+
+# WRONG CODE VVV
 
 
 
+**VVVV**
 
-
-
-
-
-
-
-
-The Code
-
-VVV
 
     import java.util.Scanner;
     public class Madlib {
@@ -124,47 +109,30 @@ VVV
     }
 
 
+# ABOVE CODE IS NOT OUR FINNLIZED CODE(THIS IS JUST TO SHOW YOU THAT WE DID WORK)
 
 
 
 
-
-
-
-# New Due Date(+1 Week) // DAY 03
-
-- display the original story
-
-- Tests with one MadLib(WE NEED THREE MADLIBS)
-
-- Need 3 different MADLIBS
-
-- Java program should be similar
-
-     VVVVVVVVVVVVVVVVVVVV
-
-This is essentialy a **String Nightmare**
-
-
-
-> 
-
-
-(OUR RANT)
-This task was so much harder….(Then it needed to be)
-
-
-The original task was to have a SET made that we, the coding nerds(us duhhh) selected, and have SET positions for words(nouns, verbs, adj, etc), and that was it. BUT Mr Baez had realised he had portrayed our project wrong… He decided that we need to take a few steps back, and take on a (essentially)completely different challenge. Now instead of just the inputs we were using(the nouns, verbs, etc)… we now need to enter ANY MADLIB, NO MATTER HOW LONG SHORT OR THE VARYING AMOUNT OF BLANK WORDS!!!! This simple task grew exponentially harder, as now the code we used, we were using set pavements for the nouns, verbs, etc; but now it can vary any amount and can be anywhere in the sentence, obliterating out previous method. But not just that, we also needed a new input.. A MADLIB. Then Our Program should be able to scan this madlib and find where each (BLANK) space is!!!
+# Image Below is the Testing Values (Graded Table)
 
 
 <img width="883" height="219" alt="image" src="https://github.com/user-attachments/assets/9d5e3bbf-2dde-493f-8540-d122c103288a" />
 
 
 
-# Starting from Square 01
+
+# Starting from Square 01 // DAY 4
 
 
-Since we used set methods for the code, it would no longer apply for the new challenge, so we needed to start from square one.
+
+Since we used set methods (specifically for the madlib and the verbs/adj/nouns) for the code, it would no longer apply for the new challenge, so we needed to start from square one. This was brutal, annoying, and frustrating as we had no idea what to do. We did not know how to approach this new project/task. 
+
+
+**Day 4**
+
+
+We did the carnival that Mr. Baez had set up in class, so there was no actual progress on the Madlib. But we did agree to brainstorm for Day 5 on how to start the code.
 
 
 # Day 5 (Outside School)
