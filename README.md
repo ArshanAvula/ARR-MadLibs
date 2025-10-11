@@ -138,6 +138,9 @@ We did the carnival that Mr. Baez had set up in class, so there was no actual pr
 # Day 5 (Outside School)
 
 
+Arshan and Rohit wrote code both inside and outside school to get ahead once again.
+
+
     Scanner sc = new Scanner(System.in);
     System.out.println("Type your Madlib: ");
     String madlib = sc.nextLine();
