@@ -294,3 +294,28 @@ Substrings were another main part of our code, as they allowed us to clean up th
 
 
 IN SUMMARY, the code asks the user to insert a madlib, and the code then proceeds to save this madlib for later use. Then the code uses scanners to look for nouns, verbs, and adjectives, and then splits the sentence between each placeholder. creating multiple halves for each placeholder. Then the code has a bunch of junk, which is then removed by the substring, and it makes sure to retain only the important parts of the code. Then the code is asking the user again for new inputs (verb, adjective, and nouns). The user finally answers the questions, and then the code prints out the halves combined to create a new sentence (which is now the completed madlib.
+
+
+# Requirements (Completed)
+
+- a class definition header that matches the file name (***Completed***)
+
+- a main method for the program (***Completed***)
+
+- the use of camelCase when appropriate (***Completed***)
+
+- comments describing the algorithms (***Completed***)
+
+- a variable containing the incomplete Mad Lib (***Completed***)
+
+- only String methods defined in the AP CSA Java Quick Reference (***Completed***)
+
+- algorithm(s) that process user input(***Completed***)
+
+- algorithm(s) to parse for the parts of speech to replace (***Completed***)
+
+- algorithm(s) to parse for sections of the Mad Lib to include (***Completed***)
+
+- various prompts to keep the user on track (***Completed***)
+
+- a final print statement to display the completed story (***Completed***)
