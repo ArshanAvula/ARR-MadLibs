@@ -109,7 +109,7 @@ The original task was to have a SET made that we, the coding nerds(us duhhh) sel
     }
 
 
-# ABOVE CODE IS NOT OUR FINNLIZED CODE(THIS IS JUST TO SHOW YOU THAT WE DID WORK)
+# ABOVE CODE IS NOT OUR FINALIZED CODE(THIS IS JUST TO SHOW YOU THAT WE DID WORK)
 
 
 
