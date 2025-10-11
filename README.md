@@ -184,7 +184,7 @@ We did the carnival that Mr. Baez had set up in class, so there was no actual pr
 # Final Code
 
 
-    public static void main(String[] args) {                       // The code doesnt start here but the syntax is weird when copying and pasting it from the file so live with it
+    public static void main(String[] args) {                       // The code doesn't start here but the syntax is weird when copying and pasting it from the file so live with it
     //Test Case: The (noun) (verb) up the (adjective) tree.        
 
     //Input user MadLib
@@ -232,9 +232,28 @@ We did the carnival that Mr. Baez had set up in class, so there was no actual pr
 
 
 
-# Testing (with mr baez)
+# Testing (with Mr. Baez)
 
 "We can take a more **harder** approach and do that(he was pointing at the board and explaining what mr Baez explained to the class), our code fits all the requirements" -- ArshanthegGoat
+
+
+# TEST ONE
+
+
+<img width="1440" height="719" alt="Screenshot 2025-10-10 at 7 25 26 PM" src="https://github.com/user-attachments/assets/1f6e92d9-231e-4716-b1f2-eba3d8347331" />
+
+
+# Test TWO
+
+
+<img width="1440" height="713" alt="Screenshot 2025-10-10 at 7 28 13 PM" src="https://github.com/user-attachments/assets/4721a61c-a42e-41d9-8602-b9ab4d1531cb" />
+
+
+# Test THREE
+
+
+<img width="1440" height="714" alt="Screenshot 2025-10-10 at 7 30 22 PM" src="https://github.com/user-attachments/assets/1fb00077-f4b7-4afe-a64f-ce8db1317c86" />
+
 
 
 # Summary
