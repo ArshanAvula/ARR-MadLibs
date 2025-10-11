@@ -1,9 +1,6 @@
 # ARR-MadLibs
 
 
-<img width="747" height="723" alt="image" src="https://github.com/user-attachments/assets/397521f2-d3ae-40e0-a261-45b0cdf76f9a" />
-
-
 
 
 <img width="815" height="390" alt="image" src="https://github.com/user-attachments/assets/390e99e4-8a3c-437a-b57b-ac6fbdcec4ca" />
@@ -220,6 +217,29 @@ This Madlib was created by Arshan and Rohit, it was tested by me, and it worked.
 **1.2.9(the most obvious)**
 
 1.2.9 introduced the scanner, which is, by the way, like 90% of the code. The scanner, in general, allowed us to get a user's input, find the placeholders in the sentence(s) (Nouns, Adjectives, Verbs). Then it scans the input sentence(Madlib) to separate the sections around the placeholders to insert the user’s words later. After the user's words had been input and "stored", it is then combined to make the completed madlib. 
+
+**VVV These are all lines from the Code VVV**
+
+    import java.util.Scanner;
+    Scanner sc = new Scanner(System.in);
+    String madlib = sc.nextLine();
+    Scanner nounSC = new Scanner(madlib);
+    nounSC.useDelimiter("(noun)");
+    String first = nounSC.next();
+    String part2 = nounSC.next();
+    Scanner verbSC = new Scanner(part2);
+    verbSC.useDelimiter("(verb)");
+    String second = verbSC.next();
+    String part3 = verbSC.next();
+    Scanner adjectiveSC = new Scanner(part3);
+    adjectiveSC.useDelimiter("(adjective)");
+    String third = adjectiveSC.next(); 
+    String fourth = adjectiveSC.next(); 
+    String noun = sc.nextLine();
+    String verb = sc.nextLine();
+    String adjective = sc.nextLine();
+
+
 
 
 **Substrings**
